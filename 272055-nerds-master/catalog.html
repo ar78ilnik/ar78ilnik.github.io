@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>NERDS - Catalog</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="top-wrapper clearfix container">
+        <nav class="main-navigation">
+          <a class="header-logo" href="index.html"><img src="img/logo-161x65.png" width="160" height="65" alt="Дизайн-студия Нёрдс"></a>
+          <ul>
+            <li>
+              <a href="index.html" class="active">Студия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a href="catalog.html">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="cart">
+          <a class="basket" href="#">Корзина</a>
+        </div>
+       </div>
+       <h1 class="container">Магазин готовых шаблонов</h1>
+    </header>
+
+
+    <main class="container">
+      <aside>
+        <form action="https://echo.htmlacademy.ru/" method="GET">
+           <section class="range">
+            <h3>СТОИМОСТЬ:</h3>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
+            </div>
+            <div class="price-controls">
+              <label class="min-price">от<input name="min-price" type="text" value="0"></label>
+              <label class="max-price">до<input name="max-price" type="text" value="15000"></label>
+            </div>
+          </section>
+
+
+          <section class="grid">
+            <h3>Сетка</h3>
+            <input id="adaptive" type="radio" name="grid-type" checked="checked">
+            <label for="adaptive">Адаптивная</label>
+            <input id="fixed" type="radio" name="grid-type">
+            <label for="fixed">Фиксированная</label>
+            <input id="fluid" type="radio" name="grid-type">
+            <label for="fluid">Резиновая</label>
+          </section>
+
+          <section class="features">
+            <h3>ОСОБЕННОСТИ:</h3>
+            <input type="checkbox" id="features_slider" checked="checked">
+            <label for="features_slider">Слайдер</label>
+            <input type="checkbox" id="features_block">
+            <label for="features_block">Блок преимуществ</label>
+            <input type="checkbox" id="features_news" checked="checked">
+            <label for="features_news">Новости</label>
+            <input type="checkbox" id="features_galery">
+            <label for="features_galery">Галерея</label>
+            <input type="checkbox" id="features_trash">
+            <label for="features_trash">Корзина</label>
+          </section>
+
+          <button type="submit" value="submit">ПОКАЗАТЬ</button>
+        </form>
+
+
+      </aside>
+
+      <section class="catalog-items">
+
+      <div class="sort">
+          <span>Сортировать</span>
+          <ul>
+            <li>по цене</li>
+            <li>по типу</li>
+            <li>по названию</li>
+          </ul>
+        </div>
+
+      <article class="catalog-item">
+        <img src="img/browser.png" width="360" height="40" alt="browser">
+        <img src="img/img-sedonia.jpg" width="360" height="576" alt="sedona-hover">
+        <div class="catalog-item-description">
+          <h2>Sedona</h2>
+          <span>Информационный сайт для туристов</span>
+          <label><input type="button" value="9 900 руб."></label>
+        </div>
+      </article>
+
+      <article class="catalog-item">
+        <img src="img/browser.png" width="360" height="40" alt="browser">
+        <img src="img/img-pink.jpg" width="360" height="576" alt="pink-hover">
+        <div class="catalog-item-description">
+          <h2>Pink App</h2>
+          <span>Продуктовый лендинг приложения для iOS и Android</span>
+          <label><input type="button" value="9 900 руб."></label>
+        </div>
+      </article>
+
+      <article class="catalog-item">
+        <img src="img/browser.png" width="360" height="40" alt="browser">
+        <img src="img/img-barbeshop.jpg" width="360" height="576" alt="barbeshop-hover">
+        <div class="catalog-item-description">
+          <h2>Barbeshop</h2>
+          <span>Сайт салоны красоты. Для мужчин, да.</span>
+          <label><input type="button" value="9 900 руб."></label>
+        </div>
+      </article>
+
+      <article class="catalog-item">
+        <img src="img/browser.png" width="360" height="40" alt="browser">
+        <img src="img/img-mishka.jpg" width="360" height="576" alt="mishka-hover">
+        <div class="catalog-item-description">
+          <h2>MISHKA</h2>
+          <span>Интернет-магазин вязаных игрушек</span>
+          <label><input type="button" value="9 900 руб."></label>
+        </div>
+      </article>
+
+      <article class="catalog-item">
+        <img src="img/browser.png" width="360" height="40" alt="browser">
+        <img src="img/img-aplus.jpg" width="360" height="576" alt="aplus-hover">
+        <div class="catalog-item-description">
+          <h2>A PLUS</h2>
+          <span>Интернет-магазин вязаных игрушек</span>
+          <label><input type="button" value="9 900 руб."></label>
+        </div>
+      </article>
+
+      <article class="catalog-item">
+        <img src="img/browser.png" width="360" height="40" alt="browser">
+        <img src="img/img-kvast.jpg" width="360" height="576" alt="kvas-hover">
+        <div class="catalog-item-description">
+          <h2>КВАСТ</h2>
+          <span>Промо-сайт производителя крафтового кваса</span>
+          <label><input type="button" value="9 900 руб."></label>
+        </div>
+      </article>
+
+    		<div class="pagination">
+      		<ul>
+      		  <li>
+      		    <a class="active-page" href="#">1</a>
+      		  </li>
+      		  <li>
+      		    <a href="#">2</a>
+      		  </li>
+      		  <li>
+      		    <a href="#">3</a>
+      		  </li>
+      		  <li>
+      		    <a class="next-page" href="#">Следующая</a>
+      		  </li>
+      		</ul>
+    		</div>
+    </section>
+    </main>
+    <div class="iframe">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.599104370521!2d30.320889251472693!3d59.93879418178727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Rusia%2C+191186!5e0!3m2!1ses!2ses!4v1477687622874"></iframe>
+    </div>
+    <div class="map"></div>
+    <footer>
+      <div class="social">
+        <a class="social-link btn-vk" href="https://vk.com">Vkontakte</a>
+        <a class="social-link btn-fb" href="https://www.facebook.com">Facebook</a>
+        <a class="social-link btn-inst" href="https://www.instagarm.com">Instagram</a>
+      </div>
+      <div class="footer-promo">
+        <h3 class="friends">Давайте дружить, это выгодно!</h3>
+        <p>Скидка 10% для друзей из социальных сетей</p>
+      </div>
+    </footer>
+    </body>
+  </html>

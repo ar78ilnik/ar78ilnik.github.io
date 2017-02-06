@@ -1,0 +1,629 @@
+
+@font-face {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+src: local('Roboto'), url("../fonts/roboto.woff") format('woff'), url("/fonts/roboto.woff") format('woff2'),;
+}
+
+@font-face {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+src: local('Roboto'), url("../fonts/robotomedium.woff") format('woff'), url("/fonts/robotomedium.woff2") format('woff2'),;
+}
+
+@font-face {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 700;
+src: local('Roboto'), url("../fonts/roboto-bold.woff") format('woff'), url("/fonts/roboto-bold.woff2") format('woff2'),;
+}
+
+body {
+font-family: "Roboto", "Arial", "Helvetica", "sans-serif";
+font-size: 16px;
+background: #ffffff;
+color: #283136;
+}
+
+.clearfix::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.container {
+width: 1160px;
+margin: 0 auto;
+padding: 10px 20px;
+}
+
+.main-navigation {
+  margin: 84px auto;
+}
+
+header {
+    background-color: #eeeeee;
+    margin-bottom: 80px;
+}
+
+.header-logo {
+	float: left;
+	margin-right: 200px;
+}
+
+.main-navigation ul {
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+.main-navigation li {
+	font-size: 16px;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main-navigation ul li a {
+font-weight: 500;
+display: block;
+padding: 25px 20px;
+}
+
+.main-navigation ul li a:hover {
+	color: red;
+}
+
+/* Slider*/
+
+.slider{
+    position:relative;
+    width:1180px;
+    height:431px;
+    margin:0 auto;
+}
+.slider input[type=radio] {
+    position:absolute;
+    opacity:0;
+}
+.slider-controls{
+    position:absolute;
+    bottom:95px;
+    left:50%;
+    width:200px;
+    height:10px;
+    margin-left:-100px;
+    text-align:center;
+    z-index:1000;
+}
+.slider-controls label{
+    display:inline-block;
+    width:4px;
+    height:4px;
+    margin:0 3px;
+    background:white;
+    border:3px solid white;
+    vertical-align:top;
+    border-radius:50%;
+    cursor:pointer;
+}
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+    background:#c1c1c1;
+}
+.slide{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.slide-text{
+    width:380px;
+    padding:30px 0;
+    color:#283136;
+}
+.slide-title{
+    font-size:36px;
+    line-height:1;
+    font-weight:bold;
+    color:black;
+}
+.slide .btn{
+    display:block;
+    width:240px;
+    padding:10px 0;
+    margin-top:25px;
+    font-size:12px;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    text-decoration:none;
+    background:#fb565a;
+    border-radius:3px;
+}
+.slide:nth-child(1){
+    background-image:url('../img/slider-1.jpg');
+    background-repeat:no-repeat;
+    background-position:100% 10px;
+}
+.slide:nth-child(2){
+    background-image:url('../img/slider-2.jpg');
+    background-repeat:no-repeat;
+    background-position:100% 10px;
+}
+.slide:nth-child(3){
+    background-image:url('../img/slider-3.jpg');
+    background-repeat:no-repeat;
+    background-position:100% 0;
+}
+.slide{
+    display:none;
+}
+#btn-1:checked ~ .slides .slide:nth-child(1) {
+    display: block;
+}
+#btn-2:checked ~ .slides .slide:nth-child(2) {
+    display: block;
+}
+#btn-3:checked ~ .slides .slide:nth-child(3) {
+    display: block;
+}
+
+/*Navigation for both files*/
+
+a {
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #eeeeee;
+
+}
+
+.features .sites {
+  float: left;
+  margin-right: 100px;
+  margin-bottom: 85px;
+}
+
+.features .sites:last-child {
+  margin-right: 0;
+}
+
+.features .sites p {
+  margin-bottom: 36px;
+}
+
+.features .sites a {
+  font-size: 16px;
+  line-height: 18px;
+  width: 160px;
+  height: 50px;
+  padding: 19px 40px 19px 40px;
+  text-transform: uppercase;
+}
+
+.features .sites:nth-child(1) a {
+  background-color: #fb565a;
+}
+
+.features .sites:nth-child(2) a {
+  background-color: #00ca74;
+}
+
+.features .sites:nth-child(3) a {
+  background-color: #efc849;
+}
+
+.info {
+  float: left;
+  width: 600px;
+  margin-right: 140px;
+}
+
+.info h2 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.info p {
+  width: 560px;
+}
+
+.info h3 {
+  font-weight: 700;
+}
+
+.info li {
+  list-style-type: none;
+  padding-top: 40px;
+}
+
+.promo {
+  float: right;
+}
+
+.projects-item {
+  float: left;
+  margin-right: 95px;
+  margin-top: 80px;
+}
+
+iframe {
+  width: 100%;
+}
+
+.social {
+  margin-left: 20px;
+  margin-right: 140px;
+  float: left;
+}
+
+footer .footer-promo {
+  width: 600px;
+  float: left;
+}
+
+footer .footer-promo h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+/* Catalog.html*/
+
+h1 {
+		font-size: 55px;
+		font-weight: 500;
+		width: 718px;
+		text-align: center;
+		padding-bottom: 100px;
+}
+
+.range {
+  width: 260px;
+  margin-top: 44px;
+}
+
+.range-controls {
+  position: relative;
+  height: 80px;
+  margin-bottom: 15px;
+  padding: 0 21px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.range-controls .scale {
+  margin-top: 40px;
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 4px;
+  height: 4px;
+  border: 8px solid white;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 18px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+
+.price-controls input {
+  width: 60px;
+  margin-left: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #283136;
+  background: #f1f1f1;
+}
+
+.price-controls {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #283136;
+}
+
+.price {
+  position: absolute;
+}
+
+.min-price {
+  left: -1px;
+}
+
+.max-price {
+  right: -1px;
+}
+
+.cart {
+	position: relative;
+	max-width: 140px;
+	float: right;
+	font-weight: 500;
+	display: block-inline;
+	padding: 25px 20px;
+	padding-left: 50px;
+}
+
+.cart::before {
+	content: "";
+ position: absolute;
+	width: 30px;
+	height: 30px;
+ cursor: pointer;
+	top: 23px;
+	left: 20px;
+	background: url("../img/spritesheet.png") no-repeat;
+ position: 0 0;
+}
+
+.check {
+  margin-left: 0;
+}
+
+input[type="range"] {
+	width: 260px;
+	height: 80px;
+	background-color: #eeeeee;
+  margin-left: 0;
+}
+
+.price input[type="text"] {
+	width: 80px;
+	height: 38px;
+	background-color: #eeeeee;
+	border-radius: 5px;
+}
+
+span {
+	float: left;
+	margin-right: 295px;
+}
+
+.sort ul {
+	list-style-type: none;
+}
+
+.sort ul li {
+	display: inline;
+}
+
+aside {
+	width: 260px;
+	float: left;
+	margin-right: 100px;
+  border-radius: 5px;
+}
+
+form button {
+  width: 260px;
+  height: 50px;
+  background-color: #eeeeee;
+}
+.catalog-items {
+  width: 780px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.catalog-items article {
+  width: 360px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+
+.catalog-item-description {
+	display: none;
+}
+
+.pagination ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination ul li {
+	 display: inline-block;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background-color: #eeeeee;
+  padding-top: 15px;
+}
+
+.pagination ul li:last-child {
+		height: 50px;
+		width: 260px;
+}
+
+.pagination ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px 50%;
+}
+
+/* Social sprite */
+
+.social-link {
+position: relative;
+display: inline-block;
+vertical-align: middle;
+font-size: 0;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background: #999999;
+cursor: pointer;
+}
+
+.social-link::before {
+content: "";
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: url('../img/spritesheet.png') no-repeat;
+}
+
+.btn-vk::before {
+background-position: 5px -265px;
+width: 30px;
+height: 30px;
+}
+
+.btn-vk:hover {opacity: 0.5;}
+
+.btn-fb::before {
+background-position: 5px -205px;
+width: 30px;
+height: 30px;
+}
+
+.btn-fb:hover {opacity: 0.5;}
+
+.btn-inst::before {
+background-position: 8px -235px;
+width: 30px;
+height: 30px;
+}
+
+.btn-inst:hover {opacity: 0.5;}
+
+/* Form sprite*/
+
+/* CHECKBOXES */
+input[type="checkbox"] + label {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  padding-left: 36px;
+}
+
+.features-form input {
+  display: none;
+}
+
+input[type="checkbox"] + label::before,
+input[type="checkbox"]:checked + label::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: -2px;
+  display: block;
+  width: 27px;
+  height: 23px;
+  background-position: 0 -30px;
+  background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-position: 0 -60px;
+}
+
+input[type="checkbox"] + label:hover::before {
+  opacity: 1;
+}
+
+input[type="checkbox"]:disabled + label::before {
+  opacity: 0.1;
+}
+
+input[type="checkbox"]:disabled + label {
+  color: rgba(40, 49, 54, 0.3);
+}
+/* END CHECKBOXES */
+
+
+/* Sprite radio*/
+
+input[type="radio"] + label {
+  display:  none;
+}
+
+input[type="radio"] + label {
+  position: relative;
+  display: block;
+  margin-bottom: 19px;
+  padding-left: 36px;
+  cursor: pointer;
+}
+
+.features input,
+.grid input {
+  display: none;
+}
+
+input[type="radio"] + label::before,
+input[type="radio"]:checked + label::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 1px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-position: 0 -90px;
+  background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+input[type="radio"]:checked + label::before {
+  background-position: 0 -120px;
+}
+
+.left-section label:hover {
+  color: #000000;
+}
+
+input[type="radio"] + label:hover::before {
+  opacity: 1;
+}
+
+input[type="radio"]:disabled + label::before {
+  opacity: 0.1;
+}
+
+input[type="radio"]:disabled + label {
+  color: rgba(40, 49, 54, 0.3);
+}

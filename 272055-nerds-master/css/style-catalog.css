@@ -1,0 +1,53 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 16px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.logo {
+  float: left;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.main-navigation {
+  vertical-align: middle;
+  min-height: 65px;
+  float: left;
+  margin-right: 245px;
+  margin-top: 50px;
+}
+
+.main-navigation li {
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.card {
+  min-height: 65px;
+  float: left;
+}
+
+.sort li {display: inline-block;}
+
+.price input {width: 60px;}
+
+.container {margin-bottom: 83px;}
+
+h1 {text-align: center;}
+
+aside {float: left; margin-right: 140px;}
+
+.catalog-items {width: 780px; float: left;}
+
+.catalog-items article {width: 360px; float: left; margin-right: 30px; margin-bottom: 36px;}

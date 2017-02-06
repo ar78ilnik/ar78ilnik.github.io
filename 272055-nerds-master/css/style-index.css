@@ -1,0 +1,164 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 16px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* index.html */
+
+.logo {
+  float: left;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.main-navigation {
+  vertical-align: middle;
+  min-height: 65px;
+  float: left;
+  margin-right: 245px;
+  margin-top: 50px;
+}
+
+.main-navigation li {
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.card {
+  min-height: 65px;
+  float: left;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+section h1 {
+  min-height: 110px;
+  width: 370px;
+  margin-top: 85px;
+  font-size: 50px;
+}
+
+section p {
+  width: 360px;
+}
+
+section a {
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+}
+
+.slider1 {
+	width: 1160px;
+	height: 431px;
+}
+
+.slider1 img {
+  float: right;
+}
+
+.slider2 {
+  width: 1160px;
+  height: 431px;
+}
+
+.slider2 img {
+  float: right;
+}
+
+.slider3 {
+  width: 1160px;
+  height: 431px;
+  margin-bottom: 80px;
+}
+
+.slider3 img {
+  float: right;
+}
+
+.sites {
+  width: 300px; float: left; margin-right: 100px;
+}
+.aplication {
+  width: 300px; float: left; margin-right: 100px;
+}
+.presentacion {
+  width: 300px; float: left; margin-right: 100px;
+}
+.features {
+  margin-bottom: 170px;
+}
+
+.info {
+  width: 650px; float: left; margin-right: 140px;
+}
+.promo {
+  width: 360px; float: left;
+}
+.left-percent, .centre-percent, .right-percent {
+  width: 100px; margin-right: 27px;
+}
+.friends {
+  min-height: 180px;
+}
+.friends div {
+  min-height: 180px; width: 260px; float: left; margin-right: 35px; margin-top: 60px;
+}
+
+/* catalog.html */
+
+
+/*.map-adress {
+position: absolute;
+top: 90px;
+width: 200px;
+background-color: #fff;
+padding: 22px 20px 25px;
+}
+
+
+
+
+
+header {min-height: 70px; width: 1200px; border: 1px solid black;}
+
+
+.logo {
+float: left;
+margin-left: 140px;
+margin-top: 48px;
+}
+
+nav {
+  float: left;
+  width: 440px;
+  margin-left: 200px;
+  border: 1px solid red;
+}
+
+.card {
+  width: 180px;
+  float: right;
+  border: 1px solid yellow;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid black;
+    }
+
+  .clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+    }
+*/
