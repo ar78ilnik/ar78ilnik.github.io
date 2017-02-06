@@ -1,0 +1,161 @@
+body {
+	background-color: #000000;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	height: 332px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('../img/fondo-header.jpg');
+	background-size: 100% 100%;
+	padding-top: 5em;
+}
+
+header p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 3em;
+	width: 300px;
+	margin: 0 auto;
+	padding: 0.5em;
+	border: 5px solid #fff;
+	color: #fff;
+	text-align: center;
+}
+
+header p:last-child {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	border: none;
+	padding: none;
+	margin: none;
+}
+
+main {
+	background-color: #ffffff;
+}
+
+h1 {
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em;
+	border-bottom: 2px solid black;
+	margin-bottom: 1em;
+}
+
+.about {
+	position: relative;
+	border-bottom: 1px solid black;
+}
+
+.about div:first-child {
+	padding: 3em;
+	width: 30%;
+	float: left;
+}
+
+.about div:last-child {
+	padding: 3em;
+	width: 30%;
+	float: right;
+}
+
+.about ul {
+	list-style: none;
+}
+
+.about ul li {
+	position: relative;
+	padding: 10px 0 10px 35px;
+}
+
+.lista::before {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 10px;
+	left: 0;
+	background-image: url('../img/sprite.png');
+	background-size: 30px 176px;
+	
+}
+
+.html::before {
+	background-position: 0px 0px;
+}
+
+.css::before {
+	background-position: 0px -30px;
+}
+
+.js::before {
+	background-position: 0px -58px;
+}
+
+.sublime::before {
+	background-position: 0px -85px;
+}
+
+.bs::before {
+	background-position: 0px -116px;
+}
+
+.jq::before {
+	background-position: 0px -147px;
+}
+
+.foto {
+	position: absolute;
+	top: 5%;
+	left: 35%;
+	width: 200px;
+	height: 200px;
+	background-image: url('../img/yo-web.jpg');
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position: top center;
+	border-radius: 50%;
+}
+
+div.experience {
+	width: 45%;
+	float: left;
+	text-align: right;
+}
+
+div.formacion {
+	width: 45%;
+	float: right;
+}
+
+p.date {
+	display: inline;
+	color: white;
+	background-color: red;
+	font-weight: bold;
+}
+
+section.portfolio {
+	color: #fff;
+	background-color: #1c1c1c;
+}
+
+section.portfolio h1 {
+	border-bottom: 2px solid #fff;
+}
+
+section.portfolio h2 {
+	text-align: center;
+}
