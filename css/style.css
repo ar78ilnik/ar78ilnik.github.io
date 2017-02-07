@@ -159,3 +159,24 @@ section.portfolio h1 {
 section.portfolio h2 {
 	text-align: center;
 }
+
+section.portfolio a {
+	display: inline-block;
+	margin: 2em 2em;
+}
+
+section.portfolio a:hover {
+	box-shadow: 3px 3px #ffff99;
+}
+
+a.left {
+	float: left;
+}
+
+a.right {
+	float: right;
+}
+
+footer {
+	min-height: 5em;
+	background-color: #fff;}
