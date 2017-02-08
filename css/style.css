@@ -179,4 +179,101 @@ a.right {
 
 footer {
 	min-height: 5em;
-	background-color: #fff;}
+	background-color: #fff;
+}
+
+section.social {
+	width: 800px;
+	text-align: center;
+	padding: 1em;
+	margin: 0 auto;
+}
+
+section.social a {
+	text-decoration: none;
+	border-radius: 50%;
+	background-color: #000;
+	padding: 1em;
+}
+
+.icon {
+	display: inline-block;
+	width: 49px;
+	height: 49px;
+	margin: 0 10px;
+	font-size: 0;
+	vertical-align: top;
+	text-decoration: none;
+	background: #000000 url("../img/social-sprite.png") no-repeat center;
+	opacity: 0.7;
+	box-shadow: 2px 2px 3px #ebebe0;
+
+}
+
+.icon-gmail {
+	background-position: -158px -1px;
+}
+
+.icon-gmail:hover {
+	opacity: 1;
+}
+
+.icon-linkedin {
+	background-position: -314px -1px;
+}
+
+.icon-linkedin:hover {
+	opacity: 1;
+}
+
+.icon-Google-Plus {
+	background-position: -262px -1px;
+}
+
+.icon-Google-Plus:hover {
+	opacity: 1;
+}
+
+.icon-twitter {
+	background-position: -54px -1px;
+}
+
+.icon-twitter:hover {
+	opacity: 1;
+}
+
+.icon-Telegram {
+	background-position: -106px -1px;
+}
+
+.icon-Telegram:hover {
+	opacity: 1;
+}
+
+.icon-github {
+	background-position: -210px -1px;
+}
+
+.icon-github:hover {
+	opacity: 1;
+}
+
+.icon-vk {
+	background-position: -1px -1px;
+}
+
+.icon-vk:hover {
+	opacity: 1;
+}
+
+.icon-meetup {
+	background-position: -366px -1px;
+}
+
+.icon-meetup:hover {
+	opacity: 1;
+}
+
+a[class*=".icon-*"]:hover {
+	opacity: 1;
+}
