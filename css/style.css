@@ -162,20 +162,14 @@ section.portfolio h2 {
 	text-align: center;
 }
 
-.portfolio .fila {
-	margin-bottom: 2em;
-	width: 100%;
+.portfolio div {
+	width: 80%;
 	margin: 0 auto;
+	padding: 1em 0;
 }
 
-.fila div {
-	width: 40%;
-	float: left;
-	padding: 1em 3em;
-}
-
-.fila div:last-child {
-	float: right;
+.portfolio div a:hover {
+	box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.5);
 }
 
 a.left {
