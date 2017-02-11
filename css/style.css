@@ -25,7 +25,7 @@ header {
 header p {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 3em;
-	width: 300px;
+	width: 30%;
 	margin: 0 auto;
 	padding: 0.5em;
 	border: 5px solid #fff;
@@ -88,8 +88,13 @@ div.experiencia {
 	display: inline-block;
 	width: 10%;
 	position: relative;
-	margin-right: 2em;
+	margin-right: 2%;
 	margin-bottom: 2em;
+}
+
+.habilidades {
+	padding-top: 3em;
+	width: 100%;
 }
 
 .lista::before {
@@ -194,7 +199,7 @@ footer {
 }
 
 section.social {
-	width: 800px;
+	width: 80%;
 	text-align: center;
 	padding: 2em 1em;
 	margin: 0 auto;
@@ -205,14 +210,13 @@ section.social a {
 	text-decoration: none;
 	border-radius: 50%;
 	background-color: #000;
-	padding: 1em;
 }
 
 .icon {
 	display: inline-block;
 	width: 49px;
 	height: 49px;
-	margin: 0 20px;
+	margin: 0 3%;
 	font-size: 0;
 	vertical-align: top;
 	text-decoration: none;
