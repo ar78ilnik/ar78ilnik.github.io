@@ -63,85 +63,89 @@ h1 {
 	border-bottom: 1px solid black;
 }
 
-.about div:first-child {
-	padding: 3em;
-	width: 30%;
+.profesion {
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.profesion h2 {
+	text-align: center;
+}
+
+div.experiencia {
+	width: 48%;
+	float: left;
+	text-align: left;
+}
+
+.profesion ul {
+	list-style: none;
+	width: 100%;
 	float: left;
 }
 
-.about div:last-child {
-	padding: 3em;
-	width: 30%;
-	float: right;
-}
-
-.about ul {
-	list-style: none;
-}
-
-.about ul li {
+.profesion ul li {
+	display: inline-block;
+	width: 10%;
 	position: relative;
-	padding: 10px 0 10px 35px;
+	margin-right: 2em;
+	margin-bottom: 2em;
 }
 
 .lista::before {
 	content: "";
 	position: absolute;
-	width: 30px;
-	height: 30px;
-	top: 10px;
-	left: 0;
+	width: 55px;
+	height: 50px;
+	top: -3em;
+	left: 0.5em;
 	background-image: url('../img/sprite.png');
-	background-size: 30px 176px;
+	background-size: 400px 50px;
 	
 }
 
 .html::before {
+	top: -3em;
+	left: 0em;
 	background-position: 0px 0px;
 }
 
 .css::before {
-	background-position: 0px -30px;
+	top: -3em;
+	left: -0.3em;
+	background-position: -58px 0px;
 }
 
 .js::before {
-	background-position: 0px -58px;
-}
-
-.sublime::before {
-	background-position: 0px -85px;
-}
-
-.bs::before {
-	background-position: 0px -116px;
+	background-position: -112px 0px;
 }
 
 .jq::before {
-	background-position: 0px -147px;
+	top: -3em;
+	left: -0.3em;
+	background-position: -168px 0px;
 }
 
-.foto {
-	position: absolute;
-	bottom: 5%;
-	left: 40%;
-	width: 150px;
-	height: 150px;
-	background-image: url('../img/yo-web.jpg');
-	background-repeat: no-repeat;
-	background-size: 130px;
-	background-position: top center;
-	border-radius: 50%;
+.sublime::before {
+	top: -3em;
+	left: 1em;
+	background-position: -229px 0px;
 }
 
-div.experience {
-	width: 45%;
-	float: left;
-	text-align: right;
+.ubuntu::before {
+	top: -3em;
+	left: 0em;
+	background-position: -290px 0px;
+}
+
+.win::before {
+	background-position: -345px 0px;
 }
 
 div.formacion {
-	width: 45%;
+	width: 48%;
 	float: right;
+	margin-bottom: 3em;
 }
 
 p.date {
@@ -149,10 +153,10 @@ p.date {
 	font-weight: bold;
 }
 
-section.portfolio {
+/*section.portfolio {
 	color: #fff;
 	background-color: #1c1c1c;
-}
+}*/
 
 section.portfolio h1 {
 	border-bottom: 2px solid #fff;
@@ -180,6 +184,10 @@ a.right {
 	float: right;
 }
 
+.fila img {
+	vertical-align: top;
+}
+
 footer {
 	min-height: 5em;
 	background-color: #fff;
@@ -188,8 +196,9 @@ footer {
 section.social {
 	width: 800px;
 	text-align: center;
-	padding: 0.5em 1em;
+	padding: 2em 1em;
 	margin: 0 auto;
+	border-bottom: 1px solid black;
 }
 
 section.social a {
@@ -277,6 +286,7 @@ section.social a {
 	opacity: 1;
 }
 
-a[class*=".icon-*"]:hover {
-	opacity: 1;
+.about {
+	padding-left: 4em;
+	padding-right: 4em;
 }
