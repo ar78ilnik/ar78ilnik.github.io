@@ -306,8 +306,12 @@ section.social a {
 }
 
 @media screen and (max-width: 800px) {
+	.profesion, .about {
+		padding: 0.5em;
+}
 	div.experiencia, div.formacion {
 		float: none;
 		width: 100%;
+		padding: 0;
 	}
 }
