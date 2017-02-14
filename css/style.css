@@ -299,8 +299,8 @@ section.social a {
 	padding-right: 4em;
 }
 
-/*@media screen and (max-width: 1260px) {
-	.social {
+@media screen and (max-width: 1260px) {
+	.habilidades {
 		display: none;
 	}
 }
@@ -310,4 +310,4 @@ section.social a {
 		float: none;
 		width: 100%;
 	}
-}*/
+}
