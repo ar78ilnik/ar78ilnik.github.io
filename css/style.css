@@ -28,8 +28,8 @@ header {
 
 header p {
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 3em;
-	width: 300px;
+	font-size: 4vw;
+	width: 30%;
 	margin: 0 auto;
 	padding: 0.5em;
 	border: 5px solid #fff;
@@ -44,7 +44,7 @@ header p:first-child {
 header p:last-child {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 3vw;
 	border: none;
 	padding: none;
 	margin-bottom: 5em;
@@ -55,7 +55,7 @@ main {
 }
 
 h1 {
-	width: 20%;
+	width: 30%;
 	margin: 0 auto;
 	text-align: center;
 	padding: 1em;
@@ -99,6 +99,14 @@ div.experiencia {
 .habilidades {
 	padding-top: 3em;
 	width: 100%;
+}
+
+.habilidades h1 {
+	margin-bottom: 3em;
+}
+
+.habilidades ul li {
+	margin-right: 2em;
 }
 
 .lista::before {
@@ -177,8 +185,12 @@ section.portfolio h2 {
 
 .portfolio div {
 	width: 80%;
-	margin: 0 auto;
-	padding: 1em 0;
+	margin: 1em auto;
+	/*padding: 1em 0;*/
+}
+
+.portfolio div:hover {
+	box-shadow: 0 0 0 5px #34495e;
 }
 
 .portfolio div a:hover {
@@ -199,7 +211,7 @@ a.right {
 
 footer {
 	min-height: 5em;
-	background-color: #fff;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
 }
 
 section.social {
@@ -306,6 +318,7 @@ section.social a {
 }
 
 @media screen and (max-width: 800px) {
+
 	.profesion, .about {
 		padding: 0.5em;
 }
