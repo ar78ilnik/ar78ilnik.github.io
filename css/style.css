@@ -320,6 +320,14 @@ section.social a {
 
 @media screen and (max-width: 800px) {
 
+	body {
+		font-size: 110%;
+}
+
+	.experiencia p, .formacion p, .about p {
+		padding-right: 16%;
+}
+
 	section.social {
 		width: 10%;
 		border-bottom: none;
@@ -340,7 +348,13 @@ section.social a {
 		float: none;
 		width: 100%;
 		padding: 0;
-	}
+}
+
+	.sertificados img {
+		width: 70%;
+		float: left;
+		margin-bottom: 2em;
+}
 }
 
 /*
