@@ -80,7 +80,7 @@ h1 {
 div.experiencia {
 	width: 48%;
 	float: left;
-	text-align: left;
+	text-align: right;
 }
 
 .profesion ul {
@@ -107,7 +107,7 @@ div.experiencia {
 }
 
 .habilidades ul li {
-	margin-right: 2em;
+	margin-right: 3%;
 }
 
 .lista::before {
@@ -356,59 +356,3 @@ section.social a {
 		margin-bottom: 2em;
 }
 }
-
-/*
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite-email-min {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -5px;
-}
-
-.sprite-github-min {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -65px;
-}
-
-.sprite-googleplus-min {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -125px;
-}
-
-.sprite-linkedin-min {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -185px;
-}
-
-.sprite-meetup-min {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -245px;
-}
-
-.sprite-telegram {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -305px;
-}
-
-.sprite-twitter-min {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -365px;
-}
-
-.sprite-vk-min {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -425px;
-}
-*/
